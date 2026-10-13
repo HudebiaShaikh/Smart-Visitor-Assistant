@@ -1,0 +1,157 @@
+﻿Analyzing lib...                                                
+
+warning - Unused import: 'widgets/camera_panel.dart'. Try removing the import directive - lib\main.dart:11:8 - unused_import
+warning - The declaration '_navEntries' isn't referenced. Try removing the declaration of '_navEntries' - lib\main.dart:80:7 - unused_element
+   info - Don't use 'BuildContext's across async gaps. Try rewriting the code to not use the 'BuildContext', or guard the use with a 'mounted' check - lib\screens\alerts_screen.dart:57:50 - use_build_context_synchronously
+   info - Use 'const' with the constructor to improve performance. Try adding the 'const' keyword to the constructor invocation - lib\screens\dashboard_screen.dart:43:27 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance. Try adding the 'const' keyword to the constructor invocation - lib\screens\dashboard_screen.dart:43:40 - prefer_const_constructors
+   info - Don't use 'BuildContext's across async gaps. Try rewriting the code to not use the 'BuildContext', or guard the use with a 'mounted' check - lib\screens\dashboard_screen.dart:73:54 - use_build_context_synchronously
+   info - Use 'const' with the constructor to improve performance. Try adding the 'const' keyword to the constructor invocation - lib\screens\visitors_screen.dart:31:12 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance. Try adding the 'const' keyword to the constructor invocation - lib\screens\visitors_screen.dart:33:14 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance. Try adding the 'const' keyword to the constructor invocation - lib\screens\visitors_screen.dart:119:13 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance. Try adding the 'const' keyword to the constructor invocation - lib\screens\visitors_screen.dart:120:22 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance. Try adding the 'const' keyword to the constructor invocation - lib\screens\visitors_screen.dart:122:24 - prefer_const_constructors
+   info - Don't use 'BuildContext's across async gaps. Try rewriting the code to not use the 'BuildContext', or guard the use with a 'mounted' check - lib\screens\visitors_screen.dart:155:65 - use_build_context_synchronously
+   info - Don't use 'BuildContext's across async gaps. Try rewriting the code to not use the 'BuildContext', or guard the use with a 'mounted' check - lib\screens\visitors_screen.dart:161:62 - use_build_context_synchronously
+warning - The '!' will have no effect because the receiver can't be null. Try removing the '!' operator - lib\widgets\alert_overlay.dart:65:82 - unnecessary_non_null_assertion
+warning - The '!' will have no effect because the receiver can't be null. Try removing the '!' operator - lib\widgets\alert_overlay.dart:67:81 - unnecessary_non_null_assertion
+warning - The '!' will have no effect because the receiver can't be null. Try removing the '!' operator - lib\widgets\alert_overlay.dart:69:90 - unnecessary_non_null_assertion
+  error - The method '_DeviceControls' isn't defined for the type '_CameraPanelState'. Try correcting the name to the name of an existing method, or defining a method named '_DeviceControls' - lib\widgets\camera_panel.dart:65:9 - undefined_method
+  error - The name '_ActivityFeed' isn't a class. Try correcting the name to match an existing class - lib\widgets\camera_panel.dart:76:15 - creation_with_non_type
+  error - The method '_PorchScenePainter' isn't defined for the type '_LiveFeed'. Try correcting the name to the name of an existing method, or defining a method named '_PorchScenePainter' - lib\widgets\camera_panel.dart:112:34 - undefined_method
+  error - The method '_ScanlinePainter' isn't defined for the type '_LiveFeed'. Try correcting the name to the name of an existing method, or defining a method named '_ScanlinePainter' - lib\widgets\camera_panel.dart:113:34 - undefined_method
+  error - Classes can't be declared inside other classes. Try moving the class to the top-level - lib\widgets\camera_panel.dart:167:1 - class_in_class
+  error - Expected a class member. Try placing this code inside a class member - lib\widgets\camera_panel.dart:167:23 - expected_class_member
+   info - The variable name 'StatelessWidget' isn't a lowerCamelCase identifier. Try changing the name to follow the lowerCamelCase style - lib\widgets\camera_panel.dart:167:31 - non_constant_identifier_names
+  error - Methods must have an explicit list of parameters. Try adding a parameter list - lib\widgets\camera_panel.dart:167:31 - missing_method_parameters
+  error - The name '_DeviceControls' isn't a class. Try correcting the name to match an existing class - lib\widgets\camera_panel.dart:177:9 - creation_with_non_type
+   info - 'required' is deprecated and shouldn't be used. In Dart 2.12 and later, use the built-in `required` keyword to mark a named parameter as required. Try replacing the use of the deprecated member with the replacement - lib\widgets\camera_panel.dart:178:5 - deprecated_member_use
+  error - Expected to find ',' - lib\widgets\camera_panel.dart:178:14 - expected_token
+  error - The getter 'lightOn' isn't defined for the type '_LiveFeed'. Try importing the library that defines 'lightOn', correcting the name to the name of an existing getter, or defining a getter or field named 'lightOn' - lib\widgets\camera_panel.dart:178:19 - undefined_getter
+   info - 'required' is deprecated and shouldn't be used. In Dart 2.12 and later, use the built-in `required` keyword to mark a named parameter as required. Try replacing the use of the deprecated member with the replacement - lib\widgets\camera_panel.dart:179:5 - deprecated_member_use
+  error - Expected to find ',' - lib\widgets\camera_panel.dart:179:14 - expected_token
+  error - The getter 'micOn' isn't defined for the type '_LiveFeed'. Try importing the library that defines 'micOn', correcting the name to the name of an existing getter, or defining a getter or field named 'micOn' - lib\widgets\camera_panel.dart:179:19 - undefined_getter
+   info - 'required' is deprecated and shouldn't be used. In Dart 2.12 and later, use the built-in `required` keyword to mark a named parameter as required. Try replacing the use of the deprecated member with the replacement - lib\widgets\camera_panel.dart:180:5 - deprecated_member_use
+  error - Expected to find ',' - lib\widgets\camera_panel.dart:180:14 - expected_token
+  error - The getter 'talkOn' isn't defined for the type '_LiveFeed'. Try importing the library that defines 'talkOn', correcting the name to the name of an existing getter, or defining a getter or field named 'talkOn' - lib\widgets\camera_panel.dart:180:19 - undefined_getter
+   info - 'required' is deprecated and shouldn't be used. In Dart 2.12 and later, use the built-in `required` keyword to mark a named parameter as required. Try replacing the use of the deprecated member with the replacement - lib\widgets\camera_panel.dart:181:5 - deprecated_member_use
+  error - Expected to find ',' - lib\widgets\camera_panel.dart:181:14 - expected_token
+   info - 'required' is deprecated and shouldn't be used. In Dart 2.12 and later, use the built-in `required` keyword to mark a named parameter as required. Try replacing the use of the deprecated member with the replacement - lib\widgets\camera_panel.dart:182:5 - deprecated_member_use
+  error - Expected to find ',' - lib\widgets\camera_panel.dart:182:14 - expected_token
+  error - The getter 'onLight' isn't defined for the type '_LiveFeed'. Try importing the library that defines 'onLight', correcting the name to the name of an existing getter, or defining a getter or field named 'onLight' - lib\widgets\camera_panel.dart:182:19 - undefined_getter
+   info - 'required' is deprecated and shouldn't be used. In Dart 2.12 and later, use the built-in `required` keyword to mark a named parameter as required. Try replacing the use of the deprecated member with the replacement - lib\widgets\camera_panel.dart:183:5 - deprecated_member_use
+  error - Expected to find ',' - lib\widgets\camera_panel.dart:183:14 - expected_token
+  error - The getter 'onMic' isn't defined for the type '_LiveFeed'. Try importing the library that defines 'onMic', correcting the name to the name of an existing getter, or defining a getter or field named 'onMic' - lib\widgets\camera_panel.dart:183:19 - undefined_getter
+   info - 'required' is deprecated and shouldn't be used. In Dart 2.12 and later, use the built-in `required` keyword to mark a named parameter as required. Try replacing the use of the deprecated member with the replacement - lib\widgets\camera_panel.dart:184:5 - deprecated_member_use
+  error - Expected to find ',' - lib\widgets\camera_panel.dart:184:14 - expected_token
+  error - The getter 'onTalk' isn't defined for the type '_LiveFeed'. Try importing the library that defines 'onTalk', correcting the name to the name of an existing getter, or defining a getter or field named 'onTalk' - lib\widgets\camera_panel.dart:184:19 - undefined_getter
+   info - 'required' is deprecated and shouldn't be used. In Dart 2.12 and later, use the built-in `required` keyword to mark a named parameter as required. Try replacing the use of the deprecated member with the replacement - lib\widgets\camera_panel.dart:185:5 - deprecated_member_use
+  error - Expected to find ',' - lib\widgets\camera_panel.dart:185:14 - expected_token
+  error - The getter 'onArm' isn't defined for the type '_LiveFeed'. Try importing the library that defines 'onArm', correcting the name to the name of an existing getter, or defining a getter or field named 'onArm' - lib\widgets\camera_panel.dart:185:19 - undefined_getter
+warning - The annotation 'override' can only be used on fields, getters, methods, or setters - lib\widgets\camera_panel.dart:188:4 - invalid_annotation_target
+warning - The declaration 'build' isn't referenced. Try removing the declaration of 'build' - lib\widgets\camera_panel.dart:189:10 - unused_element
+  error - The method '_TogglePill' isn't defined for the type '_LiveFeed'. Try correcting the name to the name of an existing method, or defining a method named '_TogglePill' - lib\widgets\camera_panel.dart:205:11 - undefined_method
+  error - The final variable 'lightOn' can't be read because it's potentially unassigned at this point. Ensure that it is assigned on necessary execution paths - lib\widgets\camera_panel.dart:205:67 - read_potentially_unassigned_final
+  error - The final variable 'onLight' can't be read because it's potentially unassigned at this point. Ensure that it is assigned on necessary execution paths - lib\widgets\camera_panel.dart:205:87 - read_potentially_unassigned_final
+  error - The method '_TogglePill' isn't defined for the type '_LiveFeed'. Try correcting the name to the name of an existing method, or defining a method named '_TogglePill' - lib\widgets\camera_panel.dart:206:11 - undefined_method
+  error - The final variable 'micOn' can't be read because it's potentially unassigned at this point. Ensure that it is assigned on necessary execution paths - lib\widgets\camera_panel.dart:206:58 - read_potentially_unassigned_final
+  error - The final variable 'onMic' can't be read because it's potentially unassigned at this point. Ensure that it is assigned on necessary execution paths - lib\widgets\camera_panel.dart:206:76 - read_potentially_unassigned_final
+  error - The method '_TogglePill' isn't defined for the type '_LiveFeed'. Try correcting the name to the name of an existing method, or defining a method named '_TogglePill' - lib\widgets\camera_panel.dart:207:11 - undefined_method
+  error - The final variable 'talkOn' can't be read because it's potentially unassigned at this point. Ensure that it is assigned on necessary execution paths - lib\widgets\camera_panel.dart:207:64 - read_potentially_unassigned_final
+  error - The final variable 'onTalk' can't be read because it's potentially unassigned at this point. Ensure that it is assigned on necessary execution paths - lib\widgets\camera_panel.dart:207:83 - read_potentially_unassigned_final
+  error - The method '_TogglePill' isn't defined for the type '_LiveFeed'. Try correcting the name to the name of an existing method, or defining a method named '_TogglePill' - lib\widgets\camera_panel.dart:208:11 - undefined_method
+  error - The final variable 'armed' can't be read because it's potentially unassigned at this point. Ensure that it is assigned on necessary execution paths - lib\widgets\camera_panel.dart:208:50 - read_potentially_unassigned_final
+  error - The final variable 'armed' can't be read because it's potentially unassigned at this point. Ensure that it is assigned on necessary execution paths - lib\widgets\camera_panel.dart:208:79 - read_potentially_unassigned_final
+  error - The final variable 'onArm' can't be read because it's potentially unassigned at this point. Ensure that it is assigned on necessary execution paths - lib\widgets\camera_panel.dart:208:97 - read_potentially_unassigned_final
+  error - The final variable 'talkOn' can't be read because it's potentially unassigned at this point. Ensure that it is assigned on necessary execution paths - lib\widgets\camera_panel.dart:212:11 - read_potentially_unassigned_final
+  error - Classes can't be declared inside other classes. Try moving the class to the top-level - lib\widgets\camera_panel.dart:220:1 - class_in_class
+  error - Expected a class member. Try placing this code inside a class member - lib\widgets\camera_panel.dart:220:19 - expected_class_member
+   info - The variable name 'StatelessWidget' isn't a lowerCamelCase identifier. Try changing the name to follow the lowerCamelCase style - lib\widgets\camera_panel.dart:220:27 - non_constant_identifier_names
+  error - Methods must have an explicit list of parameters. Try adding a parameter list - lib\widgets\camera_panel.dart:220:27 - missing_method_parameters
+  error - The name 'StatelessWidget' is already defined. Try renaming one of the declarations - lib\widgets\camera_panel.dart:220:27 - duplicate_definition
+  error - The name '_TogglePill' isn't a class. Try correcting the name to match an existing class - lib\widgets\camera_panel.dart:227:9 - creation_with_non_type
+   info - 'required' is deprecated and shouldn't be used. In Dart 2.12 and later, use the built-in `required` keyword to mark a named parameter as required. Try replacing the use of the deprecated member with the replacement - lib\widgets\camera_panel.dart:227:22 - deprecated_member_use
+  error - Expected to find ',' - lib\widgets\camera_panel.dart:227:31 - expected_token
+  error - The getter 'icon' isn't defined for the type '_LiveFeed'. Try importing the library that defines 'icon', correcting the name to the name of an existing getter, or defining a getter or field named 'icon' - lib\widgets\camera_panel.dart:227:36 - undefined_getter
+   info - 'required' is deprecated and shouldn't be used. In Dart 2.12 and later, use the built-in `required` keyword to mark a named parameter as required. Try replacing the use of the deprecated member with the replacement - lib\widgets\camera_panel.dart:227:42 - deprecated_member_use
+  error - Expected to find ',' - lib\widgets\camera_panel.dart:227:51 - expected_token
+  error - The getter 'label' isn't defined for the type '_LiveFeed'. Try importing the library that defines 'label', correcting the name to the name of an existing getter, or defining a getter or field named 'label' - lib\widgets\camera_panel.dart:227:56 - undefined_getter
+   info - 'required' is deprecated and shouldn't be used. In Dart 2.12 and later, use the built-in `required` keyword to mark a named parameter as required. Try replacing the use of the deprecated member with the replacement - lib\widgets\camera_panel.dart:227:63 - deprecated_member_use
+  error - Expected to find ',' - lib\widgets\camera_panel.dart:227:72 - expected_token
+  error - The getter 'on' isn't defined for the type '_LiveFeed'. Try importing the library that defines 'on', correcting the name to the name of an existing getter, or defining a getter or field named 'on' - lib\widgets\camera_panel.dart:227:77 - undefined_getter
+   info - 'required' is deprecated and shouldn't be used. In Dart 2.12 and later, use the built-in `required` keyword to mark a named parameter as required. Try replacing the use of the deprecated member with the replacement - lib\widgets\camera_panel.dart:227:81 - deprecated_member_use
+  error - Expected to find ',' - lib\widgets\camera_panel.dart:227:90 - expected_token
+  error - The getter 'onChanged' isn't defined for the type '_LiveFeed'. Try importing the library that defines 'onChanged', correcting the name to the name of an existing getter, or defining a getter or field named 'onChanged' - lib\widgets\camera_panel.dart:227:95 - undefined_getter
+   info - 'required' is deprecated and shouldn't be used. In Dart 2.12 and later, use the built-in `required` keyword to mark a named parameter as required. Try replacing the use of the deprecated member with the replacement - lib\widgets\camera_panel.dart:227:106 - deprecated_member_use
+  error - Expected to find ',' - lib\widgets\camera_panel.dart:227:115 - expected_token
+  error - The getter 'activeColor' isn't defined for the type '_LiveFeed'. Try importing the library that defines 'activeColor', correcting the name to the name of an existing getter, or defining a getter or field named 'activeColor' - lib\widgets\camera_panel.dart:227:120 - undefined_getter
+warning - The annotation 'override' can only be used on fields, getters, methods, or setters - lib\widgets\camera_panel.dart:229:4 - invalid_annotation_target
+warning - The declaration 'build' isn't referenced. Try removing the declaration of 'build' - lib\widgets\camera_panel.dart:230:10 - unused_element
+  error - The final variable 'on' can't be read because it's potentially unassigned at this point. Ensure that it is assigned on necessary execution paths - lib\widgets\camera_panel.dart:231:19 - read_potentially_unassigned_final
+  error - The final variable 'activeColor' can't be read because it's potentially unassigned at this point. Ensure that it is assigned on necessary execution paths - lib\widgets\camera_panel.dart:231:24 - read_potentially_unassigned_final
+  error - The final variable 'label' can't be read because it's potentially unassigned at this point. Ensure that it is assigned on necessary execution paths - lib\widgets\camera_panel.dart:233:16 - read_potentially_unassigned_final
+  error - The final variable 'on' can't be read because it's potentially unassigned at this point. Ensure that it is assigned on necessary execution paths - lib\widgets\camera_panel.dart:233:24 - read_potentially_unassigned_final
+  error - The final variable 'on' can't be read because it's potentially unassigned at this point. Ensure that it is assigned on necessary execution paths - lib\widgets\camera_panel.dart:234:16 - read_potentially_unassigned_final
+  error - The final variable 'label' can't be read because it's potentially unassigned at this point. Ensure that it is assigned on necessary execution paths - lib\widgets\camera_panel.dart:236:20 - read_potentially_unassigned_final
+  error - The final variable 'on' can't be read because it's potentially unassigned at this point. Ensure that it is assigned on necessary execution paths - lib\widgets\camera_panel.dart:236:28 - read_potentially_unassigned_final
+  error - 'class' can't be used as an identifier because it's a keyword. Try renaming this to be an identifier that isn't a keyword - lib\widgets\camera_panel.dart:240:1 - expected_identifier_but_got_keyword
+  error - Too many positional arguments: 0 expected, but 15 found. Try removing the extra positional arguments, or specifying the name for named arguments - lib\widgets\camera_panel.dart:240:1 - extra_positional_arguments_could_be_named
+  error - Undefined name 'class'. Try correcting the name to one that is defined, or defining the name - lib\widgets\camera_panel.dart:240:1 - undefined_identifier
+  error - Expected to find ',' - lib\widgets\camera_panel.dart:240:7 - expected_token
+  error - Undefined name '_ActivityFeed'. Try correcting the name to one that is defined, or defining the name - lib\widgets\camera_panel.dart:240:7 - undefined_identifier
+  error - 'extends' can't be used as an identifier because it's a keyword. Try renaming this to be an identifier that isn't a keyword - lib\widgets\camera_panel.dart:240:21 - expected_identifier_but_got_keyword
+  error - Expected to find ',' - lib\widgets\camera_panel.dart:240:21 - expected_token
+  error - Undefined name 'extends'. Try correcting the name to one that is defined, or defining the name - lib\widgets\camera_panel.dart:240:21 - undefined_identifier
+  error - Expected to find ',' - lib\widgets\camera_panel.dart:240:29 - expected_token
+  error - Expected to find ',' - lib\widgets\camera_panel.dart:240:45 - expected_token
+  error - The name '_ActivityFeed' isn't a class. Try correcting the name to match an existing class - lib\widgets\camera_panel.dart:241:9 - creation_with_non_type
+  error - Expected to find '}' - lib\widgets\camera_panel.dart:241:24 - expected_token
+  error - 'class' can't be used as an identifier because it's a keyword. Try renaming this to be an identifier that isn't a keyword - lib\widgets\camera_panel.dart:282:1 - expected_identifier_but_got_keyword
+  error - Expected to find ',' - lib\widgets\camera_panel.dart:282:1 - expected_token
+  error - Undefined name 'class'. Try correcting the name to one that is defined, or defining the name - lib\widgets\camera_panel.dart:282:1 - undefined_identifier
+  error - Expected to find ',' - lib\widgets\camera_panel.dart:282:7 - expected_token
+  error - Undefined name '_PorchScenePainter'. Try correcting the name to one that is defined, or defining the name - lib\widgets\camera_panel.dart:282:7 - undefined_identifier
+  error - 'extends' can't be used as an identifier because it's a keyword. Try renaming this to be an identifier that isn't a keyword - lib\widgets\camera_panel.dart:282:26 - expected_identifier_but_got_keyword
+  error - Expected to find ',' - lib\widgets\camera_panel.dart:282:26 - expected_token
+  error - Undefined name 'extends'. Try correcting the name to one that is defined, or defining the name - lib\widgets\camera_panel.dart:282:26 - undefined_identifier
+  error - Expected to find ',' - lib\widgets\camera_panel.dart:282:34 - expected_token
+  error - Expected to find ',' - lib\widgets\camera_panel.dart:282:48 - expected_token
+  error - Expected an identifier - lib\widgets\camera_panel.dart:283:3 - missing_identifier
+  error - Expected to find '}' - lib\widgets\camera_panel.dart:283:3 - expected_token
+  error - 'class' can't be used as an identifier because it's a keyword. Try renaming this to be an identifier that isn't a keyword - lib\widgets\camera_panel.dart:310:1 - expected_identifier_but_got_keyword
+  error - Expected to find ',' - lib\widgets\camera_panel.dart:310:1 - expected_token
+  error - Undefined name 'class'. Try correcting the name to one that is defined, or defining the name - lib\widgets\camera_panel.dart:310:1 - undefined_identifier
+  error - Expected to find ',' - lib\widgets\camera_panel.dart:310:7 - expected_token
+  error - Undefined name '_ScanlinePainter'. Try correcting the name to one that is defined, or defining the name - lib\widgets\camera_panel.dart:310:7 - undefined_identifier
+  error - 'extends' can't be used as an identifier because it's a keyword. Try renaming this to be an identifier that isn't a keyword - lib\widgets\camera_panel.dart:310:24 - expected_identifier_but_got_keyword
+  error - Expected to find ',' - lib\widgets\camera_panel.dart:310:24 - expected_token
+  error - Undefined name 'extends'. Try correcting the name to one that is defined, or defining the name - lib\widgets\camera_panel.dart:310:24 - undefined_identifier
+  error - Expected to find ',' - lib\widgets\camera_panel.dart:310:32 - expected_token
+  error - Expected to find ',' - lib\widgets\camera_panel.dart:310:46 - expected_token
+  error - Expected an identifier - lib\widgets\camera_panel.dart:311:3 - missing_identifier
+  error - Expected to find '}' - lib\widgets\camera_panel.dart:311:3 - expected_token
+  error - Expected to find ',' - lib\widgets\camera_panel.dart:323:11 - expected_token
+  error - The final variable 'onChanged' can't be read because it's potentially unassigned at this point. Ensure that it is assigned on necessary execution paths - lib\widgets\camera_panel.dart:324:24 - read_potentially_unassigned_final
+  error - The final variable 'on' can't be read because it's potentially unassigned at this point. Ensure that it is assigned on necessary execution paths - lib\widgets\camera_panel.dart:324:35 - read_potentially_unassigned_final
+  error - The final variable 'on' can't be read because it's potentially unassigned at this point. Ensure that it is assigned on necessary execution paths - lib\widgets\camera_panel.dart:329:22 - read_potentially_unassigned_final
+  error - The final variable 'activeColor' can't be read because it's potentially unassigned at this point. Ensure that it is assigned on necessary execution paths - lib\widgets\camera_panel.dart:329:27 - read_potentially_unassigned_final
+  error - The final variable 'on' can't be read because it's potentially unassigned at this point. Ensure that it is assigned on necessary execution paths - lib\widgets\camera_panel.dart:331:41 - read_potentially_unassigned_final
+  error - The final variable 'on' can't be read because it's potentially unassigned at this point. Ensure that it is assigned on necessary execution paths - lib\widgets\camera_panel.dart:331:76 - read_potentially_unassigned_final
+  error - The final variable 'icon' can't be read because it's potentially unassigned at this point. Ensure that it is assigned on necessary execution paths - lib\widgets\camera_panel.dart:334:20 - read_potentially_unassigned_final
+  error - The final variable 'label' can't be read because it's potentially unassigned at this point. Ensure that it is assigned on necessary execution paths - lib\widgets\camera_panel.dart:336:20 - read_potentially_unassigned_final
+   info - Don't use 'BuildContext's across async gaps. Try rewriting the code to not use the 'BuildContext', or guard the use with a 'mounted' check - lib\widgets\common.dart:267:76 - use_build_context_synchronously
+warning - The '!' will have no effect because the receiver can't be null. Try removing the '!' operator - lib\widgets\common.dart:303:38 - unnecessary_non_null_assertion
+   info - Don't use 'BuildContext's across async gaps. Try rewriting the code to not use the 'BuildContext', or guard the use with a 'mounted' check - lib\widgets\common.dart:328:54 - use_build_context_synchronously
+  error - The name 'BrandMark' is defined in the libraries 'package:smart_visitor_app/widgets/brand_logo.dart' and 'package:smart_visitor_app/widgets/common.dart'. Try using 'as prefix' for one of the import directives, or hiding the name from all but one of the imports - lib\widgets\control_panel.dart:43:17 - ambiguous_import
+  error - 2 positional arguments expected by 'showMessage', but 1 found. Try adding the missing arguments - lib\widgets\control_panel.dart:81:55 - not_enough_positional_arguments
+   info - Use 'const' with the constructor to improve performance. Try adding the 'const' keyword to the constructor invocation - lib\widgets\live_camera.dart:91:15 - prefer_const_constructors
+
+flutter : 145 issues found. (ran in 5.0s)
+At line:1 char:82
++ ... istant\smart-visitor-assistant\app'; flutter analyze lib 2>&1 
+| Out-F ...
++                                          ~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (145 issues found. (ran  
+   in 5.0s):String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
